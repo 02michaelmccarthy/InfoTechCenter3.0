@@ -7,6 +7,9 @@ Our welcome Screen will start our program letting
 drivers know that the InfoTechCenter OS is loading
 """
 
-print("\n\nWelcome to Operation Fury InfoTech Center\n")
+#Import Libraries Here
+from time import sleep #We imported the Sleep function from the Time Librart
 
+print("\n\nWelcome to Operation Fury InfoTech Center\n")
+sleep(1.5)
 print("\nOperation Fury's Operation System Booting Up")
