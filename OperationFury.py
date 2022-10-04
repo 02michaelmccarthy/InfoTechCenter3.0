@@ -12,4 +12,4 @@ from time import sleep #We imported the Sleep function from the Time Librart
 
 print("\n\nWelcome to Operation Fury InfoTech Center\n")
 sleep(1.5)
-print("\nOperation Fury's Operation System Booting Up")
+print("\033[1;28 +\nOperation Fury's Operation System Booting Up")
