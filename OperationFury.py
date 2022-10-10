@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #Welcome Screen
 #Developer: Michael McCarthy
 #Version: 1.0
@@ -17,7 +17,7 @@ print("\033[1;36m  \nOperation Fury's Operation System Booting Up")
 for i in range(2):
     print("OS Booting up")
     sleep(.5)
-=======
+
 #weather
 #developer: Michael McCarthy
 #Version 1.o
@@ -65,4 +65,4 @@ def vRS():
 
 
 vRS()
->>>>>>> Weather
+
