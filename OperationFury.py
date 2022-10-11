@@ -1,4 +1,13 @@
 
+
+#*****************************************************************************
+
+#Import Libraries Here
+from time import sleep #We imported the Sleep function from the Time Library
+import random
+
+#*****************************************************************************
+
 #Welcome Screen
 #Developer: Michael McCarthy
 #Version: 1.0
@@ -7,9 +16,6 @@
 Our welcome Screen will start our program letting
 drivers know that the InfoTechCenter OS is loading
 """
-
-#Import Libraries Here
-from time import sleep #We imported the Sleep function from the Time Library
 
 print("\n\nWelcome to Operation Fury InfoTech Center\n")
 sleep(1.5)
@@ -29,8 +35,8 @@ picking from a list - using if, elif, and else statements
 to check the condition and print a specific print line
 """
 
-#Import Libraries here
-import random
+
+
 #Weather condition list using the random.choice library
 #to randomly chose a condition and storing it in its brain
 def weather():
