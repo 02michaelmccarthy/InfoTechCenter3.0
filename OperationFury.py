@@ -10,6 +10,7 @@ condition
 
 #import library here
 import random
+from time import sleep
 
 #Gas Level Function
 def gasLevelGauge():
@@ -22,6 +23,8 @@ gasLevelIndicator = gasLevelGauge()
 
 def gasLevelAlert():
     if gasLevelIndicator == "Empty":
-        print("***WARNING YOU ARE ON EMPTY***\n Calling Emergency Contact")
+        print("***WARNING YOU ARE ON EMPTY***")
+        sleep(1)
+        print("Calling Your Emergency Contact")
 
 gasLevelAlert()
