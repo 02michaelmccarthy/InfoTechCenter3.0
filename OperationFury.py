@@ -12,7 +12,6 @@ condition
 import random
 from time import sleep
 
-number = random.randint(1,20)
 
 #Gas Level Function
 def gasLevelGauge():
@@ -28,6 +27,7 @@ def listOfGasStations():
     GasStationNearby = random.choice(gasStation)
     return GasStationNearby
 def gasLevelAlert():
+    milesToGasStation = round(random.uniform(1, 25),1)
     if gasLevelIndicator == "Empty":
         print("***WARNING YOU ARE ON EMPTY***")
         sleep(1)
@@ -39,6 +39,6 @@ def gasLevelAlert():
         sleep(0.5)
         print("Checking google maps for nearest gas station")
         sleep(0.5)
-        print("The nearest gas station is", listOfGasStations(), ". ", listOfGasStations(), " is ", number, " miles away")
+        print("The nearest gas station is", listOfGasStations(), ".", listOfGasStations(), " is ", milesToGasStation, "miles away")
 
 gasLevelAlert()
