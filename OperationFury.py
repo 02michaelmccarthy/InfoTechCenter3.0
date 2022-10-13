@@ -4,7 +4,7 @@
 #Import Libraries Here
 from time import sleep #We imported the Sleep function from the Time Library
 import random
-
+import time
 #*****************************************************************************
 
 #Welcome Screen
@@ -22,7 +22,7 @@ print("\033[1;36m  \nOperation Fury's Operation System Booting Up")
 for i in range(2):
     print("OS Booting up")
     sleep(.5)
-
+#*********************************************************************************************************************
 #weather
 #developer: Michael McCarthy
 #Version 1.o
@@ -69,8 +69,8 @@ def vRS():
         print("VRS will only allow your car to go 90MPH")
 
 
-vRS()
 
+#*********************************************************************************************************************
 
 #Gasoline
 #Programmer: Michael McCarthy
@@ -129,5 +129,8 @@ def gasLevelAlert():
     else:
         print("Your gas tank is full, you have plenty of gas to get where you are going")
 
-
+#*********************************************************************************************************************
+#Call Functions Here
 gasLevelAlert()
+print()
+vRS()
